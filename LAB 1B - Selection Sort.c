@@ -1,3 +1,5 @@
+INPUT - 
+    
 #include <stdio.h>
 
 void selectionSort(int arr[], int n) {
@@ -40,3 +42,11 @@ int main() {
 
     return 0;
 }
+
+
+OUTPUT - 
+
+Enter number of elements: 5
+Enter 5 elements:
+1 4 6 3 2
+Sorted array: 1 2 3 4 6
