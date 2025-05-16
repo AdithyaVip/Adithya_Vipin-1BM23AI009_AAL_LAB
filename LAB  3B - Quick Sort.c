@@ -1,3 +1,5 @@
+INPUT -
+
 #include <stdio.h>
 
 void swap(int* a, int* b) {
@@ -53,3 +55,10 @@ int main() {
 
     return 0;
 }
+
+OUTPUT - 
+
+Original array:
+10 7 8 9 1 5 
+Sorted array:
+1 5 7 8 9 10
