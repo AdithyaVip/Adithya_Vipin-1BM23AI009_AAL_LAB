@@ -1,4 +1,5 @@
-
+INPUT -
+    
 #include <stdio.h>
 void insertionSort(int arr[], int n) {
     int i, key, j;
@@ -28,3 +29,8 @@ int main() {
     printArray(arr, n);
     return 0;
 }
+
+OUTPUT - 
+
+Original Array: 12 10 13 5 7 
+Sorted Array: 5 7 10 12 13
