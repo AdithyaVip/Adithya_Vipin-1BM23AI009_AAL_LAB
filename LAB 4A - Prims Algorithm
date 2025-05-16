@@ -54,3 +54,9 @@ int main() {
 
 OUTPUT - 
 
+Minimum Spanning Tree using Prim's Algorithm:
+Edge 	Weight
+0 - 1 	2
+1 - 2 	3
+0 - 3 	6
+1 - 4 	5
