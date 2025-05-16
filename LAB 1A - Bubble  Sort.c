@@ -1,3 +1,5 @@
+INPUT - 
+    
 #include <stdio.h>
 
 void bubbleSort(int arr[], int n) {
@@ -42,3 +44,10 @@ int main() {
 
     return 0;
 }
+
+OUTPUT - 
+
+Enter number of elements: 5
+Enter 5 elements:
+1 4 5 7 8
+Sorted array: 1 4 5 7 8 
