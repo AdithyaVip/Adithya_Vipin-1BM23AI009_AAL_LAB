@@ -1,3 +1,5 @@
+INPUT - 
+
 #include <stdio.h>
 
 void merge(int arr[], int left, int mid, int right) {
@@ -46,7 +48,7 @@ void printArray(int arr[], int size) {
 }
 
 int main() {
-    int arr[] = {12, 11, 13, 5, 6, 7};
+    int arr[] = {12, 11, 14, 4, 6, 7};
     int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("Original array:\n");
@@ -58,3 +60,10 @@ int main() {
     printArray(arr, n);
     return 0;
 }
+
+OUTPUT -
+
+Original array:
+12 11 14 4 6 7 
+Sorted array:
+4 6 7 11 12 14 
