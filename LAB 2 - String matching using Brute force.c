@@ -1,3 +1,5 @@
+INPUT - 
+
 #include <stdio.h>
 #include <string.h>
 
@@ -39,3 +41,11 @@ int main() {
 
     return 0;
 }
+
+OUTPUT - 
+
+Enter the text: sdgiregijgiejg
+Enter the pattern to search: gi
+Pattern found at index 2
+Pattern found at index 6
+Pattern found at index 9
