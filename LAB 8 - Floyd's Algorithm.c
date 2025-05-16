@@ -1,3 +1,5 @@
+INPUT -
+    
 #include <stdio.h>
 
 #define V 4
@@ -47,3 +49,11 @@ int main() {
     floydWarshall(graph);
     return 0;
 }
+
+OUTPUT- 
+
+Shortest distances between every pair of vertices:
+      0      5      8      9
+    INF      0      3      4
+    INF    INF      0      1
+    INF    INF    INF      0
